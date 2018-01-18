@@ -1,0 +1,38 @@
+before:
+<div id="mytable" style="width: auto; margin:auto;">
+<table id="mytable">
+<tr>
+<th colspan="4" align="left"><input type="submit" id="fcw-update-entries" /></th>
+<th colspan="3" style="text-align:right;">[frm-search]</th>
+</tr>
+<tr>
+<th style="text-align:center;">Invoiced<input type="checkbox" id="fcw-select-all" /></th>
+<th>Date</th>
+<th>Clinic</th>
+<th>Patient</th>
+<th>Owner</th>
+<th>Billing category</th>
+<th>Discount</th>
+</tr>
+</thead>
+<tbody>
+
+Content:
+<tr id="[id]">
+<td style="text-align:center; color: #333333;"><input type="checkbox" value="[id]" class="fcw-row-checkbox"></td>
+<td>[142]</td>
+<td>[264]</td>
+<td>[94]</td>
+<td>[95]</td>
+<td>[160]</td>
+<td>[180]</td>
+</tr>
+
+After:
+</tbody>
+</table>
+
+[vc_separator type="transparent" position="center" up="30"]
+<div style="text-align:center;">[button icon="fa-arrow-left" target="_self" hover_type="default" text="Back" link="http://localhost:8888/angela/wp-admin/"]</div>
+[vc_separator type="transparent" position="center" down="90"]
+</div>
